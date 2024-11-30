@@ -1,0 +1,20 @@
+.Services .container .one{
+    background-color: var(--sec-bg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.Services .container .one :first-child{
+    color: var(--main-color);
+    font-size: 18px;
+}
+.Services .container .one p{
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--body-color);
+}
+.truck{
+    font-size: 25px !important;
+}

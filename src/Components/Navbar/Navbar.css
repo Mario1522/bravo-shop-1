@@ -1,0 +1,59 @@
+.Navbar {}
+.navbar-brand{
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+}
+.navbar-brand span{
+    color: var(--main-color) !important;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.navbar-toggler{
+    /* color: #fff !important; */
+    background-color: #fff !important;
+}
+.navbar{
+    background-color: #3d464d !important;
+    color:#fff !important;
+    padding: 8px 24px !important;
+}
+.container-fluid a{
+    color: #fff !important;
+    transition: 0.5s;
+}
+.navbar ul{
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar ul a:hover{
+    color: var(--main-color) !important;
+}
+.dropdown-menu{
+    background-color: var(--main-color) !important ;
+   
+    padding: 5px 20px !important;
+    transition: 0.5s !important;
+}
+.dropdown-menu li{
+    width: 100% !important;
+    transition: 0.5s !important;
+}
+.dropdown-menu li a{
+    width: 100% !important;
+    transition: 0.5s !important;
+    color: #000 !important;
+}
+.shopping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.shopping div :first-child{
+    color: var(--main-color);
+    font-size: 22px !important;
+}
+.shopping div :last-child{
+    font-size: 18px;
+}

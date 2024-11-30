@@ -1,0 +1,6 @@
+.Home{
+    overflow-x: hidden;
+}
+.Home::-webkit-scrollbar{
+    display: none;
+}

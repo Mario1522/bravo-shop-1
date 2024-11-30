@@ -1,0 +1,85 @@
+.Footer {
+    background-color: #3d464d;
+    padding: 40px;
+}
+.Footer .row{
+    padding:  0 0 40px 0;
+    border-bottom: 1px solid #ffffffb0;
+}
+.Footer .row .three{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    color: #fff;
+}
+.Footer .row .three b{
+    font-size: 25px;
+}
+.Footer .row .three p{
+    width: 80%;
+    margin: 0  !important;
+}
+.Footer .row .three ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 !important;
+    margin:  0 !important;
+}
+.Footer .row .three ul li{
+    list-style: none;
+}
+.Footer .row .three ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.Footer .row .three ul li a:hover{
+    color: var(--main-color);
+}
+.Footer .row .col-xl-3:last-child .three p{
+    width: 100%;
+}
+.Footer .row .three .email{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Footer .row .three .email input{
+    width: 100% !important;
+    padding: 10px;
+}
+.Footer .row .three .email button{
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    height: 100% !important;
+}
+.Footer .pay{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.Footer .pay p{
+    margin: 0 !important;
+}
+@media (max-width:736px) {
+    .Footer .pay{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

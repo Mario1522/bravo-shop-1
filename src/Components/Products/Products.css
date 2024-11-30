@@ -1,0 +1,64 @@
+.Products .container .row .card{
+    background-color: var(--sec-bg) !important;
+    color: var(--body-color);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Products .container .row .card .contain-img{
+    display: flex;
+    justify-content: center;
+}
+.Products .container .row .card .contain-img img{
+    width: 200px;
+    transition: 0.5s;
+}
+.Products .container .row .card .contain-img:hover img{
+    transform: scale(1.2);
+}
+.Products .container .row .card .card-body{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Products .container .row .card .card-body b{
+    font-size: 22px;
+}
+.Products .container .row .card .card-body .price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Products .container .row .card .card-body .price span{}
+.Products .container .row .card .card-body .price del{
+    opacity: 0.5;
+}
+.Products .container .row .card .card-body .stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    color: var(--main-color);
+    font-size: 22px;
+}
+.add{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add *{
+    padding: 10px;
+    background-color: var(--main-color);
+    color: #fff !important;
+    font-size: 20px !important;
+    box-sizing: unset !important;
+    border-radius: 15px;
+    cursor: pointer;
+}

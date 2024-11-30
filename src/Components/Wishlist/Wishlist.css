@@ -1,0 +1,4 @@
+.Wishlist .card{
+    background-color: var(--sec-bg) !important;
+    color: var(--body-color);
+}

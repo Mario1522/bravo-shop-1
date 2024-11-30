@@ -1,0 +1,33 @@
+.api .container > p{
+    color: var(--body-color);
+    opacity: 0.7;
+}
+
+.api .container .row .card{
+    width: 100% !important;
+    background-color: var(--sec-bg);
+    color: var(--body-color);
+    overflow: hidden;
+}
+.api .container .row .card .contain-img{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.api .container .row .card .contain-img img{
+    height: 250px;
+}
+
+.api .container .row .card .card-body{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.api .container .row .card .card-body b{
+    opacity: 0.7;
+}

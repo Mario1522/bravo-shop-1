@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  transition: 0.5s !important;
+}
+:root{
+  --main-color : #cece2b ;
+  --body-bg : #eee ;
+  --body-color : #000 ;
+  --sec-bg : #fff ;
+}
+.dark{
+  --body-bg : #000 ;
+  --body-color : #fff ;
+  --sec-bg : #333 ;
+}
+main{
+  background-color: var(--body-bg);
+  transition: 0.5s;
+}
+body{
+  background-color: var(--body-bg) !important;
+  font-family: "Tajawal", serif;
+  padding: 0 !important;
+}
+.mybtn{
+  padding: 10px 12px;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.mybtn:hover{
+  background-color: var(--main-color);
+  color: green;
+}
+.h1{
+  color: var(--main-color) !important;
+}
+.mood{
+  font-size: 26px !important;
+  cursor: pointer;
+  animation: mood 2s infinite ease;
+}
+@keyframes mood {
+  100%{
+    transform: rotate(360deg);
+  }
+}

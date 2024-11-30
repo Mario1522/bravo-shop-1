@@ -1,0 +1,27 @@
+.Companies .slider{
+    background-color: #ccc !important;
+    padding: 30px 40px;
+}
+.Companies .slider img{
+    width: 200px !important;
+    margin: 0 0 0 55px;
+}
+.Companies .slider .slick-dots{
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+@media (max-width:770px) {
+    .Companies .slider img{
+        margin: 0 0 0 100px !important;
+    }
+}
+@media (max-width:484px) {
+    .Companies .slider img{
+        margin: 0 0 0 50px !important;
+    }
+}
+@media (max-width:360px) {
+    .Companies .slider img{
+        margin: 0 !important;
+    }
+}
