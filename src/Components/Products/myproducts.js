@@ -15,5 +15,5 @@ export const myproducts = [
     {img : pro5 , title : 'AirPlane' , price : 40 , sale : 50} ,
     {img : pro6 , title : 'Clock' , price : 40 , sale : 50} ,
     {img : pro7 , title : 'Jeans pants' , price : 160 , sale : 190} ,
-    {img : pro8 , title : 'Camera' , price : 130 , sale : 150} 
+    {img : pro8 , title : 'CuroLogy' , price : 130 , sale : 150} 
 ]
