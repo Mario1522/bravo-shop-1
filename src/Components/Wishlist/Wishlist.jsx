@@ -19,7 +19,7 @@ function Wishlist() {
           <div className="col-xl-3 col md-6 col-12" key={index}>
           <div className="card">
             <div className="contain-img">
-              <img src={val.img || val.image || val.thumbnail} alt="" className='card-img' style={{hieght : '250px'}}/>
+              <img src={val.img || val.image || val.thumbnail} alt="" className='card-img' style={{height : '250px'}}/>
             </div>
             <div className="card-body">
               <b className='d-block text-center fs-3' style={{color : 'var(--main-color)'}}>{val.title?.split(' ').slice(0 , 2).join(' ')}</b>
